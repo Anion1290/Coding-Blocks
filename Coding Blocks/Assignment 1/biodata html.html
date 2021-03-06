@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>biodata.form</title>
+</head>
+<body>
+<H1>My Bio Data</H1>
+<form action="/action_page.php">
+<fieldset>
+	<legend>
+		Personal Information
+	</legend>
+	<lable for="fname"><b>First Name</b>:</lable>
+	<input type="text" id="fname" name="fname" placeholder="First Name">
+	<lable for="lname">Last Name:</lable>
+	<input type="text" id="lname" name="lname" placeholder="Last Names"><br><br>
+	<label for="male">Male:</label>
+	<input type="radio" id="male" name="gender" vale="male">
+	<label for="female">Female:</label>
+	<input type="radio" id="female" name="gender" value="female">
+	<lable for="other">Other:</lable>
+	<input type="radio" id="other" name="gender" value="other"><br><br>
+	<lable for="dob">Date of Birth:</lable>
+	<input type="date" id="dob" name="date of birth"><br><br>
+	<lable for="email">E-Mail:</lable>
+	<input type="email" type="email" name="email"><br><br>
+	<lable for="phone">Phone</lable>
+	<input type="tel" id="phone" name="phone" placeholder="+91"><br><br>
+	<lable for="height">Height</lable>
+	<input type="tel" type="number" name="height" placeholder="Height in Feet"><br><br>
+</fieldset>
+<legend> Education </legend>
+<fieldset>
+	<label for="school name">School Name:</label>
+	<input type="text" type="school name" name="scname" placeholder="School Name"><br><br>
+	<label for="cname">Class:</label>
+	<input type="digit" id="cname" name="class name" placeholder="Enter Class"><br><br>
+	<label for="stream">Stream:</label>
+    <select name="stream" id="stream">
+    <option value="Stream">Stream</option></select><br><br>
+    <label for="s=msheet">Marksheet:</label>
+    <button type="button" id="choice">Choose File</button>No File Chosen
+</fieldset><br>
+<input type="submit" vale="submit">
+</form>
+</body>
+</html>
